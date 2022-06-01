@@ -1,7 +1,7 @@
-# frozen_string_literal: true
-
 source "https://rubygems.org"
 
-# gem "rails"
+gem "jekyll", "~> 3.5"
+gem "minimal-mistakes-jekyll"
+gem "kramdown-parser-gfm"
 
-gem "jekyll", "~> 4.2"
+gem "webrick", "~> 1.7"
