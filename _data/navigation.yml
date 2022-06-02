@@ -15,4 +15,4 @@ main:
   - title: "Category"
     url: /Category/
   - title: "Posts"
-  url: /_posts/
+    url: /_posts/
