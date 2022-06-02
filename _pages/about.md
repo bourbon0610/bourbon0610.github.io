@@ -1,6 +1,7 @@
 ---
 permalink: /about/
 title: "About"
+layout: sigle
 toc: true
 toc_sticky: true
 toc_label: "MYSELF"
