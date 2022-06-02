@@ -14,3 +14,5 @@ main:
     url: /About/
   - title: "Category"
     url: /Category/
+  - title: "Posts"
+  url: /_posts/
