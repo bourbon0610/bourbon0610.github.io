@@ -16,3 +16,22 @@ main:
     url: /archive/
   - title: "Posts"
     url: /posts/
+
+side:
+  - title: "About"
+    url: /about/
+
+  - title: "Archive"
+    url: /Archive/
+
+  - title: "Programming"
+    children:
+      - title: "JS, HTML, CSS"
+        url: "#"
+      - title: "Python"
+        url: "#"
+
+  - title: "etc"
+    children:
+      - title: "예시"
+        url: /etc/posts/
