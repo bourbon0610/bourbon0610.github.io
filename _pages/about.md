@@ -4,6 +4,7 @@ title: "About"
 layout: single
 toc: true
 toc_sticky: true
+nav: "side"
 ---
 
 # 시커(Seeker)

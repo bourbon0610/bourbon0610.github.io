@@ -30,6 +30,8 @@ side:
         url: "#"
       - title: "Python"
         url: "#"
+      - title: "etc"
+        url: "/etc/programming/posts/"
 
   - title: "etc"
     children:
