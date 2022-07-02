@@ -1,1 +1,345 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-07-02T21:01:49+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Seeker’s Blog</title><subtitle>한국 어딘가 살고있는 평범한 인간의 사는 이야기</subtitle><author><name>시커(Seeker)</name></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-07-02T21:02:46+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Seeker’s Blog</title><subtitle>한국 어딘가 살고있는 평범한 인간의 사는 이야기</subtitle><author><name>시커(Seeker)</name></author><entry><title type="html">자바스크립트 입문기</title><link href="http://localhost:4000/programming/js/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%9E%85%EB%AC%B8%EA%B8%B0/" rel="alternate" type="text/html" title="자바스크립트 입문기" /><published>2022-07-02T00:00:00+09:00</published><updated>2022-07-02T00:00:00+09:00</updated><id>http://localhost:4000/programming/js/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%9E%85%EB%AC%B8%EA%B8%B0</id><content type="html" xml:base="http://localhost:4000/programming/js/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%9E%85%EB%AC%B8%EA%B8%B0/"><![CDATA[<h3 id="코딩-그게-뭔데-해킹하는건가-냠냠야미">코딩 그게 뭔데 해킹하는건가 냠냠야미</h3>
+<hr />
+
+<p>때는 2022 나는 나름 열심히 했다고 생각한 회사에서 <del>진급누락</del>을 맞보게 된다. <br />
+나름 커리어 잘 쌓고 인정받고 있다고 생각했는데 오산이었나보다. <br />
+앞으로 뭘해야 인정받고 살 수 있을까 생각할때 스쳐지나간 단어가 바로 코딩이었다.</p>
+
+<blockquote>
+  <p>시간이 지날수록 하드웨어는 어느 한 지점에 수렴하고 나중에는 소프트웨어가 차별화 되어야 하지 않을까</p>
+</blockquote>
+
+<p>뭐 많은 사람들이 이미 많이 생각하는 내용이었지만 그 당시 나에게는 암울한 미래에 한줄기 빛같은 길이 펼쳐진 것 같았다.
+일이야 다들 자기분야에서 어느정도는 하는거고 거기에 더해서 나는 코딩을 통해 디지털트랜스폼을 접목해보자.
+이게 계기였다. <br />
+물론 자바스크립트, html, css는 업무자동화, 디지털트랜스폼과는 좀 거리가 멀지만 처음 시작할 때 결과물을 바로바로 볼 수 있는 작업이 좋을거라 생각했고 접근하기 쉬웠던 것이 자바스크립트, html, css 였던거 같다.</p>
+
+<p>그렇게 처음 노마드코더라는 사이트를 알게 됬고, 무료 강의부터 들으며 코딩세계에 입문하게 되었다.</p>
+
+<hr />
+<h3 id="입문-후-약-3개월-뒤">입문 후 약 3개월 뒤..</h3>
+
+<p>3월에 시작한 코딩배우기 현재 무료 강의인 ‘바닐라 JS로 크롬 앱 만들기’, ‘Python으로 웹스크래퍼 만들기’와 유료강의인 ‘코코아톡 클론 코딩’을 완료한 상태이다. 해당 사이트에서는 챌린지라는 프로그램을 운영하는데 매일매일 퀴즈나 코드과제가 나오고 이를 주어진 기한내에 제출을 해야하는(보통은 하루이다.) 콘텐츠인데 완료하면 강의 할인쿠폰을 주기 때문에 동기부여에 굉장한 도움을 받았다.</p>
+
+<p><img src="/assets/images/post/js/DashboardNomad-Coders.png" alt="뱃지상태" /><em>현재 나의 뱃지 상태 ⎯ 아직도 획득할게 넘쳐난다</em></p>
+
+<p>아직은 많이 부족하지만 그래도 결과물이 눈에 바로바로 보이니 흥미도 높아지고 하고싶은 의지도 넘친다. <br />
+<del>(아니 나는 업무자동화 하고싶은데 언제까지 웹에 매달려야하지)</del></p>
+
+<p>하도 코딩만하고 정리를 안하니 까먹기만 해서<del>(치맨가)</del> 블로그에도 앞으로 내용을 정리하고자 한다.</p>
+
+<div id="disqus_thread"></div>
+<script>
+  /**
+   *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+   *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+  /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+  (function () {
+    // DON'T EDIT BELOW THIS LINE
+    var d = document,
+      s = d.createElement("script");
+    s.src = "https://bourbon0610-github-io.disqus.com/embed.js";
+    s.setAttribute("data-timestamp", +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>]]></content><author><name>시커(Seeker)</name></author><category term="[&quot;js&quot;]" /><category term="js" /><category term="etc" /><summary type="html"><![CDATA[코딩의 ㅋ도 모르던 공대생의 자바스크립트 입문기]]></summary></entry><entry><title type="html">마크다운 문서 작성법</title><link href="http://localhost:4000/programming/etc/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4_%EC%9E%91%EC%84%B1%EB%B2%95/" rel="alternate" type="text/html" title="마크다운 문서 작성법" /><published>2022-06-29T00:00:00+09:00</published><updated>2022-06-29T00:00:00+09:00</updated><id>http://localhost:4000/programming/etc/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4_%EC%9E%91%EC%84%B1%EB%B2%95</id><content type="html" xml:base="http://localhost:4000/programming/etc/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4_%EC%9E%91%EC%84%B1%EB%B2%95/"><![CDATA[<h1 id="들어가며">들어가며..</h1>
+
+<p>밑도 끝도없이 블로그를 시작해야겠다고 생각하고 무려 3주가 지났다.<br />
+취미 겸 잘되면 부업도 할 겸 시작했던 개발 공부와 병행해서 같이 작성하고자 했지만
+그것은 그저 욕심일 뿐 히히🤪<br />
+(노는게 젤좋아 룰루)</p>
+
+<p>아무것도 형성되지 않은 시점인 지금 우왕좌왕하며 그때그때 찾는게 지겨워
+마크다운 작성법이라도 나를 위해 작성해 놓기로 한다.</p>
+
+<hr />
+
+<h2 id="마크다운md-이게-뭔데">마크다운(.md) 이게 뭔데?</h2>
+
+<p>다른사람의 레포지토리를 갔을 때 많이 보였던 readme.md 파일<br />
+.md 확장자를 가진 파일이 바로 마크다운 문서이다.</p>
+
+<p>그냥 간단하게 글을 쓰려고 하는데 좀 형식적으로 쓰고싶어 근데 뭐 html 이런건
+쓰기가 어려운데 아 귀찮아 좀 간단한거 없나? 한다면 마크다운을 쓰자.<br />
+(뭐 누가 만들었고 저래서 만들었고 어쩌고 저쩌고 어려운 설명은 <a href="https://namu.wiki/w/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4">여기</a>를 참고해달라)</p>
+
+<hr />
+
+<h2 id="기본-문법을-알아보자">기본 문법을 알아보자.</h2>
+<p>사용하면서 알게되는 것들은 추가로 작성할 예정이다.</p>
+
+<h3 id="제목문">제목문</h3>
+
+<p>제목을 쓰는방법은 아래와 같다.</p>
+
+<ul>
+  <li>문법</li>
+</ul>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh"># 가장 큰 제목</span>
+
+<span class="gu">## 두번째 큰 제목</span>
+
+<span class="gu">### 세번째 큰 제목</span>
+</code></pre></div></div>
+
+<ul>
+  <li>적용 결과</li>
+</ul>
+
+<h1 id="가장-큰-제목">가장 큰 제목</h1>
+
+<h2 id="두번째-큰-제목">두번째 큰 제목</h2>
+
+<h3 id="세번째-큰-제목">세번째 큰 제목</h3>
+
+<hr />
+
+<h3 id="코드블록">코드블록</h3>
+
+<p>코드블록을 쓰는 방법은 다음과 같다. 여기서 `는 백틱이다.<br />
+(맥북이라면 숫자 1키 옆 ₩키를 영어일 때 눌러보자. ₩가아니라 `로 나올 것이다.)</p>
+
+<p>밑의 문법에서 markdown부분은 작성하고자 하는 언어명으로 바꾸면 그에 맞게 포맷이 적용된다.</p>
+
+<ul>
+  <li>문법</li>
+</ul>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">markdown
+</span>코드내용
+1
+2
+3
+<span class="p">```</span>
+</code></pre></div></div>
+
+<ul>
+  <li>적용 결과</li>
+</ul>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>코드내용
+1
+2
+3
+</code></pre></div></div>
+
+<hr />
+
+<h3 id="목록">목록</h3>
+
+<p>목록은 두 종류로 나뉜다.</p>
+
+<ol>
+  <li>순서가 있는 목록</li>
+  <li>순서가 없는 목록</li>
+</ol>
+
+<ul>
+  <li>문법</li>
+</ul>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">-</span> 순서가 있는 목록
+<span class="p">
+1.</span> 일번 목록
+<span class="p">2.</span> 이번 목록
+<span class="p">3.</span> 삼번 목록
+<span class="p">
+-</span> 순서가 없는 목록
+<span class="p">
+-</span> 목록
+<span class="p">
+*</span> 목록
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>적용 결과</p>
+  </li>
+  <li>
+    <p>순서가 있는 목록</p>
+  </li>
+</ul>
+
+<ol>
+  <li>일번 목록</li>
+  <li>이번 목록</li>
+  <li>삼번 목록</li>
+</ol>
+
+<ul>
+  <li>
+    <p>순서가 없는 목록</p>
+  </li>
+  <li>
+    <p>목록</p>
+  </li>
+  <li>
+    <p>목록</p>
+  </li>
+</ul>
+
+<hr />
+
+<h3 id="할일-목록">할일 목록</h3>
+
+<p>To do list 작성법은 다음과 같다.</p>
+
+<ul>
+  <li>문법</li>
+</ul>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">-</span> [ ] 코딩하기
+<span class="p">-</span> [ ] 운동하기
+<span class="p">-</span> [x] 숨쉬기
+</code></pre></div></div>
+
+<ul class="task-list">
+  <li>
+    <p>적용 결과</p>
+  </li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />코딩하기</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />운동하기</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />숨쉬기</li>
+</ul>
+
+<hr />
+
+<h3 id="링크-걸기">링크 걸기</h3>
+
+<p>링크 거는 방법은 다음과 같다.</p>
+
+<ul>
+  <li>문법</li>
+</ul>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="nv">Go Google</span><span class="p">](</span><span class="sx">google.com</span><span class="p">)</span>
+</code></pre></div></div>
+
+<ul>
+  <li>적용 결과</li>
+</ul>
+
+<p><a href="google.com">Go Google</a></p>
+
+<hr />
+
+<h3 id="이미지-넣기">이미지 넣기</h3>
+
+<p>블로그 쓰기에 중요한 이미지 넣기는 다음과 같다.</p>
+
+<ul>
+  <li>문법</li>
+</ul>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">이미지 설명</span><span class="p">](</span><span class="sx">이미지</span> 경로)
+</code></pre></div></div>
+
+<ul>
+  <li>적용 결과</li>
+</ul>
+
+<p><img src="/assets/images/JoTalwZ5_400x400.jpg" alt="귀여운 스누피 사진" /></p>
+
+<hr />
+
+<h3 id="가로줄-넣기">가로줄 넣기</h3>
+<p>가로줄 넣기는 다음과 같다.</p>
+
+<ul>
+  <li>문법</li>
+</ul>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">* * * 
+***
+*****</span>
+<span class="gh">- - -
+-----
+</span></code></pre></div></div>
+
+<ul>
+  <li>적용 결과</li>
+</ul>
+
+<hr />
+<hr />
+<hr />
+<hr />
+<hr />
+
+<hr />
+
+<p>###</p>
+
+<hr />
+
+<div id="disqus_thread"></div>
+<script>
+  /**
+   *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+   *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+  /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+  (function () {
+    // DON'T EDIT BELOW THIS LINE
+    var d = document,
+      s = d.createElement("script");
+    s.src = "https://bourbon0610-github-io.disqus.com/embed.js";
+    s.setAttribute("data-timestamp", +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>]]></content><author><name>시커(Seeker)</name></author><category term="[&quot;etc&quot;]" /><category term="markdown" /><category term="etc" /><summary type="html"><![CDATA[나를 위해 작성하는 마크다운 작성법]]></summary></entry><entry><title type="html">테스트 포스트 #1</title><link href="http://localhost:4000/etc/%EC%B2%AB%EB%B2%88%EC%A7%B8-%ED%8F%AC%EC%8A%A4%ED%8A%B8/" rel="alternate" type="text/html" title="테스트 포스트 #1" /><published>2022-06-02T00:00:00+09:00</published><updated>2022-06-02T00:00:00+09:00</updated><id>http://localhost:4000/etc/%EC%B2%AB%EB%B2%88%EC%A7%B8-%ED%8F%AC%EC%8A%A4%ED%8A%B8</id><content type="html" xml:base="http://localhost:4000/etc/%EC%B2%AB%EB%B2%88%EC%A7%B8-%ED%8F%AC%EC%8A%A4%ED%8A%B8/"><![CDATA[<h1 id="블로그-세팅을-위한-첫번째-포스트">블로그 세팅을 위한 첫번째 포스트</h1>
+
+<p>테스트 입니다.</p>
+
+<h2 id="이미지-첨부">이미지 첨부</h2>
+
+<p>Unsplash random images.
+첨부 테스트</p>
+<figure class="">
+  <img src="https://source.unsplash.com/random" alt="" /><figcaption>
+      This is a figure caption.
+
+    </figcaption></figure>
+
+<h2 id="code-block-확인">Code block 확인</h2>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;body&gt;</span>
+  <span class="nt">&lt;span&gt;</span>테스트 코드 블록<span class="nt">&lt;/span&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+</code></pre></div></div>
+
+<h2 id="안내-블록">안내 블록</h2>
+
+<div class="language-html notice--info highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notice--info"</span> <span class="na">markedown=</span><span class="s">"1"</span><span class="nt">&gt;</span>정보 안내 블록 색상<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<div id="disqus_thread"></div>
+<script>
+  /**
+   *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+   *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+  /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+  (function () {
+    // DON'T EDIT BELOW THIS LINE
+    var d = document,
+      s = d.createElement("script");
+    s.src = "https://bourbon0610-github-io.disqus.com/embed.js";
+    s.setAttribute("data-timestamp", +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>]]></content><author><name>시커(Seeker)</name></author><category term="[&quot;etc&quot;]" /><category term="etc" /><summary type="html"><![CDATA[블로그 세팅을 위한 첫번째 포스트]]></summary></entry></feed>
