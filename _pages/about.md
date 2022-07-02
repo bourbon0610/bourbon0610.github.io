@@ -2,9 +2,9 @@
 permalink: /about/
 title: "About"
 layout: single
-toc: true
-toc_sticky: true
-nav: "side"
+author_profile: true
+sidebar:
+  nav: "side"
 ---
 
 # 시커(Seeker)

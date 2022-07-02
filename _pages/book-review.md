@@ -1,7 +1,7 @@
 ---
-title: etc
+title: Book Review
 layout: category
-permalink: /programming/etc/
+permalink: /book/review/
 entries_layout: splash
 classes: wide
 author_profile: true

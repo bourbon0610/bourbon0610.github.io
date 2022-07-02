@@ -1,5 +1,5 @@
 ---
 layout: category
-title : etc
+title: JS, HTML, CSS
 ---
 

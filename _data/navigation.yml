@@ -27,13 +27,13 @@ side:
   - title: "Programming"
     children:
       - title: "JS, HTML, CSS"
-        url: "#"
+        url: /programming/js/
       - title: "Python"
-        url: "#"
+        url: "/programming/python/"
       - title: "etc"
-        url: "/etc/programming/posts/"
+        url: /programming/etc/
 
-  - title: "etc"
+  - title: "Book"
     children:
-      - title: "예시"
-        url: /etc/posts/
+      - title: "Review"
+        url: /book/review/
