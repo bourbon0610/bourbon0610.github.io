@@ -1,0 +1,39 @@
+# main links
+main:
+  #- title: "Quick-Start Guide"
+  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+  - title: "About"
+    url: /about/
+  - title: "Archive"
+    url: /archive/
+  - title: "Posts"
+    url: /posts/
+
+side:
+  - title: "About"
+    url: /about/
+
+  - title: "Archive"
+    url: /Archive/
+
+  - title: "Programming"
+    children:
+      - title: "JS, HTML, CSS"
+        url: /programming/js/
+      - title: "Python"
+        url: "/programming/python/"
+      - title: "etc"
+        url: /programming/etc/
+
+  - title: "Book"
+    children:
+      - title: "Review"
+        url: /book/review/
